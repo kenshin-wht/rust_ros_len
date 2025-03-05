@@ -1,0 +1,345 @@
+[0.080s] Invoking command in '/home/ohtoai/rust_ros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/shape_msgs
+[0.177s] -- The C compiler identification is GNU 13.3.0
+[0.263s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.452s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.478s] -- Detecting CXX compiler ABI info
+[0.661s] -- Detecting CXX compiler ABI info - done
+[0.671s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.671s] -- Detecting CXX compile features
+[0.671s] -- Detecting CXX compile features - done
+[0.681s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.907s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.085s] -- Found geometry_msgs: 5.3.5 (/home/ohtoai/rust_ros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.132s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.163s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.189s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.291s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.303s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.302s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.306s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.308s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.310s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.138s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.200s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.409s] -- Found PythonExtra: /usr/bin/python3  
+[5.069s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.164s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.164s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.171s] -- Configuring done (5.1s)
+[5.264s] -- Generating done (0.1s)
+[5.286s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/shape_msgs
+[5.302s] Invoked command in '/home/ohtoai/rust_ros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/shape_msgs
+[5.304s] Invoking command in '/home/ohtoai/rust_ros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/shape_msgs -- -j2 -l2
+[5.408s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.039s] [  1%] Built target shape_msgs__rs
+[6.065s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.827s] [  3%] Built target shape_msgs__rosidl_generator_type_description
+[6.866s] [  3%] Built target ament_cmake_python_copy_shape_msgs
+[6.900s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.870s] [  6%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__description.c.o[0m
+[7.934s] [  7%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o[0m
+[7.987s] [  9%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[8.036s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__description.c.o[0m
+[8.070s] [ 12%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o[0m
+[8.140s] [ 13%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[8.188s] [ 15%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__description.c.o[0m
+[8.258s] [ 16%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o[0m
+[8.338s] [ 18%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[8.381s] [ 20%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__description.c.o[0m
+[8.465s] [ 21%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o[0m
+[8.563s] [ 23%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[8.638s] [ 24%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_c.so[0m
+[8.698s] [ 24%] Built target shape_msgs__rosidl_generator_c
+[8.749s] [ 26%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.610s] [ 26%] Built target shape_msgs__cpp
+[10.015s] running egg_info
+[10.017s] creating shape_msgs.egg-info
+[10.065s] writing shape_msgs.egg-info/PKG-INFO
+[10.066s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[10.066s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[10.066s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[10.140s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[10.141s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[10.180s] [ 26%] Built target ament_cmake_python_build_shape_msgs_egg
+[10.202s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.110s] [ 29%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[11.598s] [ 30%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o[0m
+[12.127s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o[0m
+[12.653s] [ 33%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o[0m
+[13.213s] [ 35%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[13.300s] [ 35%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[13.310s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.088s] [ 38%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[14.715s] [ 40%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o[0m
+[15.322s] [ 41%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o[0m
+[15.871s] [ 43%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o[0m
+[16.501s] [ 44%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.610s] [ 44%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[16.625s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.245s] [ 47%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[17.292s] [ 49%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[17.336s] [ 50%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[17.409s] [ 52%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[17.453s] [ 53%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.512s] [ 53%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[17.534s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.150s] [ 56%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[18.227s] [ 58%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[18.286s] [ 60%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[18.346s] [ 61%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[18.429s] [ 63%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[18.499s] [ 63%] Built target shape_msgs__rosidl_typesupport_c
+[18.522s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.218s] [ 66%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[19.606s] [ 67%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o[0m
+[20.080s] [ 69%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o[0m
+[20.464s] [ 70%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o[0m
+[20.884s] [ 72%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.992s] [ 72%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[21.025s] [ 73%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.573s] [ 75%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[22.038s] [ 76%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[22.386s] [ 78%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[22.695s] [ 80%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[23.026s] [ 81%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[23.103s] [ 81%] Built target shape_msgs__rosidl_typesupport_cpp
+[23.142s] [ 81%] Built target shape_msgs
+[23.182s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.395s] [ 83%] Built target shape_msgs__py
+[24.423s] [ 84%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[24.574s] [ 86%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[24.720s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[24.922s] [ 89%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[25.100s] [ 90%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_py.so[0m
+[25.165s] [ 90%] Built target shape_msgs__rosidl_generator_py
+[25.203s] [ 92%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.340s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[25.404s] [ 93%] Built target shape_msgs_s__rosidl_typesupport_fastrtps_c
+[25.445s] [ 95%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.597s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[25.645s] [ 96%] Built target shape_msgs_s__rosidl_typesupport_introspection_c
+[25.701s] [ 98%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[25.860s] [100%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so[0m
+[25.948s] [100%] Built target shape_msgs_s__rosidl_typesupport_c
+[25.976s] Invoked command in '/home/ohtoai/rust_ros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/shape_msgs -- -j2 -l2
+[25.979s] Invoking command in '/home/ohtoai/rust_ros_ws/build/shape_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/shape_msgs
+[26.001s] -- Install configuration: ""
+[26.002s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[26.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.json
+[26.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.json
+[26.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.json
+[26.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.json
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__description.c
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__description.c
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__description.c
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[26.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[26.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[26.010s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[26.010s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[26.010s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__description.c
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[26.011s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[26.011s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[26.012s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.012s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[26.012s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[26.015s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[26.016s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[26.016s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[26.016s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[26.016s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[26.021s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.021s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.021s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.021s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.022s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.022s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.022s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.022s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.023s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[26.023s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[26.032s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[26.032s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[26.032s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs
+[26.032s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[26.032s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[26.032s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[26.035s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[26.035s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[26.035s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[26.035s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[26.035s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[26.037s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.037s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[26.037s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[26.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/ament_index/resource_index/rust_packages/shape_msgs
+[26.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust
+[26.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust/build.rs
+[26.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust/Cargo.toml
+[26.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust/src
+[26.040s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust/src/msg.rs
+[26.040s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/rust/src/lib.rs
+[26.041s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[26.041s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[26.041s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info
+[26.041s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[26.041s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[26.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[26.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[26.044s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs
+[26.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[26.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[26.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg
+[26.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py
+[26.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_s.c
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane_s.c
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive_s.c
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle_s.c
+[26.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py
+[26.049s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[26.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[26.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py
+[26.125s] Listing '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs'...
+[26.125s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py'...
+[26.125s] Listing '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg'...
+[26.127s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py'...
+[26.127s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py'...
+[26.127s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py'...
+[26.127s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py'...
+[26.127s] Compiling '/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py'...
+[26.137s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.138s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[26.138s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[26.139s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[26.139s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[26.140s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so" to ""
+[26.140s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[26.140s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[26.141s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[26.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[26.144s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[26.144s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/path.sh
+[26.147s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[26.147s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/local_setup.bash
+[26.147s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/local_setup.sh
+[26.147s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[26.148s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[26.148s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/package.dsv
+[26.148s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[26.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[26.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.150s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.150s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[26.150s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[26.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[26.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[26.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[26.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[26.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[26.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/shape_msgs/share/shape_msgs/package.xml
+[26.161s] Invoked command in '/home/ohtoai/rust_ros_ws/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/shape_msgs

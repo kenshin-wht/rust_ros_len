@@ -1,0 +1,13 @@
+{
+  "package_name": "std_srvs",
+  "output_dir": "/home/ohtoai/rust_ros_ws/build/std_srvs/rosidl_generator_type_description/std_srvs",
+  "idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Empty.idl",
+    "/home/ohtoai/rust_ros_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/SetBool.idl",
+    "/home/ohtoai/rust_ros_ws/build/std_srvs/rosidl_adapter/std_srvs:srv/Trigger.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs",
+    "builtin_interfaces:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/share/builtin_interfaces"
+  ]
+}

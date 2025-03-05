@@ -1,0 +1,7 @@
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/Field.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/FieldType.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/IndividualTypeDescription.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/KeyValue.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeDescription.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:msg/TypeSource.idl
+/home/ohtoai/rust_ros_ws/build/type_description_interfaces/rosidl_adapter/type_description_interfaces:srv/GetTypeDescription.idl

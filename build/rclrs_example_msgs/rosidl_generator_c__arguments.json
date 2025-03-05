@@ -1,0 +1,43 @@
+{
+  "package_name": "rclrs_example_msgs",
+  "output_dir": "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_generator_c/rclrs_example_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs:msg/MyMessage.idl",
+    "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/NestedType.idl",
+    "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs:msg/VariousTypes.idl"
+  ],
+  "ros_interface_files": [
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/NestedType.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/VariousTypes.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs/msg/MyMessage.idl",
+    "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/NestedType.idl",
+    "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_adapter/rclrs_example_msgs/msg/VariousTypes.idl"
+  ],
+  "type_description_tuples": [
+    "msg/MyMessage.idl:/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_generator_type_description/rclrs_example_msgs/msg/MyMessage.json",
+    "msg/NestedType.idl:/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_generator_type_description/rclrs_example_msgs/msg/NestedType.json",
+    "msg/VariousTypes.idl:/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_generator_type_description/rclrs_example_msgs/msg/VariousTypes.json"
+  ]
+}

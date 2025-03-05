@@ -1,0 +1,14 @@
+{
+  "package_name": "stereo_msgs",
+  "output_dir": "/home/ohtoai/rust_ros_ws/build/stereo_msgs/rosidl_generator_type_description/stereo_msgs",
+  "idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/build/stereo_msgs/rosidl_adapter/stereo_msgs:msg/DisparityImage.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/home/ohtoai/rust_ros_ws/install/sensor_msgs/share/sensor_msgs",
+    "builtin_interfaces:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/share/builtin_interfaces",
+    "geometry_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs/share/std_msgs",
+    "service_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs"
+  ]
+}

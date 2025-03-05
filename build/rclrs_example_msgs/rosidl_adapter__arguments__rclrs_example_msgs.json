@@ -1,0 +1,7 @@
+{
+  "package_name": "rclrs_example_msgs",
+  "non_idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs:msg/NestedType.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs:msg/VariousTypes.msg"
+  ]
+}

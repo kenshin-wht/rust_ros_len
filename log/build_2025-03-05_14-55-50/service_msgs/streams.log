@@ -1,0 +1,247 @@
+[0.013s] Invoking command in '/home/ohtoai/rust_ros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/rcl_interfaces/service_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/service_msgs
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.132s] -- The CXX compiler identification is GNU 13.3.0
+[0.165s] -- Detecting C compiler ABI info
+[0.268s] -- Detecting C compiler ABI info - done
+[0.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.276s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.291s] -- Detecting CXX compiler ABI info
+[0.410s] -- Detecting CXX compiler ABI info - done
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.418s] -- Detecting CXX compile features
+[0.418s] -- Detecting CXX compile features - done
+[0.421s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.649s] -- Found builtin_interfaces: 2.0.2 (/home/ohtoai/rust_ros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.679s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.693s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.703s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.717s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.732s] -- Found rosidl_core_generators: 0.2.0 (/home/ohtoai/rust_ros_ws/install/rosidl_core_generators/share/rosidl_core_generators/cmake)
+[0.744s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.368s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.370s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.374s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.377s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.075s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.385s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.525s] -- Found PythonExtra: /usr/bin/python3  
+[3.002s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.047s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[3.049s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[3.051s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.064s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.066s] -- Added test 'lint_cmake' to check CMake code style
+[3.066s] -- Added test 'xmllint' to check XML markup files
+[3.068s] -- Configuring done (3.0s)
+[3.126s] -- Generating done (0.0s)
+[3.137s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/service_msgs
+[3.149s] Invoked command in '/home/ohtoai/rust_ros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/rcl_interfaces/service_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/service_msgs
+[3.150s] Invoking command in '/home/ohtoai/rust_ros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/service_msgs -- -j2 -l2
+[3.212s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.444s] [  2%] Built target service_msgs__rs
+[3.470s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.655s] [  5%] Built target service_msgs__rosidl_generator_type_description
+[3.687s] [  5%] Built target ament_cmake_python_copy_service_msgs
+[3.700s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.980s] [ 11%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__description.c.o[0m
+[4.033s] [ 14%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__functions.c.o[0m
+[4.085s] [ 17%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_c.dir/rosidl_generator_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[4.116s] [ 20%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_c.so[0m
+[4.153s] [ 20%] Built target service_msgs__rosidl_generator_c
+[4.182s] [ 22%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.474s] [ 22%] Built target service_msgs__cpp
+[4.652s] running egg_info
+[4.652s] creating service_msgs.egg-info
+[4.666s] writing service_msgs.egg-info/PKG-INFO
+[4.666s] writing dependency_links to service_msgs.egg-info/dependency_links.txt
+[4.667s] writing top-level names to service_msgs.egg-info/top_level.txt
+[4.668s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[4.709s] reading manifest file 'service_msgs.egg-info/SOURCES.txt'
+[4.710s] writing manifest file 'service_msgs.egg-info/SOURCES.txt'
+[4.744s] [ 22%] Built target ament_cmake_python_build_service_msgs_egg
+[4.756s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.055s] [ 28%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/service_msgs/msg/detail/service_event_info__type_support_c.cpp.o[0m
+[5.784s] [ 31%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.953s] [ 31%] Built target service_msgs__rosidl_typesupport_fastrtps_c
+[5.991s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.401s] [ 37%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/service_msgs/msg/detail/dds_fastrtps/service_event_info__type_support.cpp.o[0m
+[6.853s] [ 40%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.950s] [ 40%] Built target service_msgs__rosidl_typesupport_fastrtps_cpp
+[6.960s] [ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.234s] [ 45%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/service_msgs/msg/detail/service_event_info__type_support.c.o[0m
+[7.272s] [ 48%] [32m[1mLinking C shared library libservice_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.306s] [ 48%] Built target service_msgs__rosidl_typesupport_introspection_c
+[7.331s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.588s] [ 54%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[7.635s] [ 57%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_c.so[0m
+[7.688s] [ 57%] Built target service_msgs__rosidl_typesupport_c
+[7.703s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.960s] [ 62%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/service_msgs/msg/detail/service_event_info__type_support.cpp.o[0m
+[8.610s] [ 65%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.708s] [ 65%] Built target service_msgs__rosidl_typesupport_introspection_cpp
+[8.729s] [ 68%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.075s] [ 71%] [32mBuilding CXX object CMakeFiles/service_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/service_msgs/msg/service_event_info__type_support.cpp.o[0m
+[9.702s] [ 74%] [32m[1mLinking CXX shared library libservice_msgs__rosidl_typesupport_cpp.so[0m
+[9.757s] [ 74%] Built target service_msgs__rosidl_typesupport_cpp
+[9.789s] [ 74%] Built target service_msgs
+[9.829s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.295s] [ 77%] Built target service_msgs__py
+[10.336s] [ 80%] [32mBuilding C object CMakeFiles/service_msgs__rosidl_generator_py.dir/rosidl_generator_py/service_msgs/msg/_service_event_info_s.c.o[0m
+[10.454s] [ 82%] [32m[1mLinking C shared library libservice_msgs__rosidl_generator_py.so[0m
+[10.496s] [ 82%] Built target service_msgs__rosidl_generator_py
+[10.519s] [ 85%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.623s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[10.660s] [ 88%] Built target service_msgs_s__rosidl_typesupport_fastrtps_c
+[10.688s] [ 91%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.779s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[10.824s] [ 94%] Built target service_msgs_s__rosidl_typesupport_introspection_c
+[10.859s] [ 97%] [32mBuilding C object CMakeFiles/service_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.965s] [100%] [32m[1mLinking C shared module rosidl_generator_py/service_msgs/service_msgs_s__rosidl_typesupport_c.so[0m
+[10.997s] [100%] Built target service_msgs_s__rosidl_typesupport_c
+[11.023s] Invoked command in '/home/ohtoai/rust_ros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/service_msgs -- -j2 -l2
+[11.024s] Invoking command in '/home/ohtoai/rust_ros_ws/build/service_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/service_msgs
+[11.038s] -- Install configuration: ""
+[11.038s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/ament_index/resource_index/rosidl_interfaces/service_msgs
+[11.038s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.json
+[11.038s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__description.c
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.h
+[11.039s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.h
+[11.040s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__functions.c
+[11.040s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_c__visibility_control.h
+[11.040s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.h
+[11.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/library_path.sh
+[11.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/library_path.dsv
+[11.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so
+[11.042s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_c.so" to ""
+[11.042s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.042s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.042s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.042s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_c.h
+[11.043s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.043s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+[11.043s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[11.043s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.043s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.043s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.043s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp
+[11.043s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__builder.hpp
+[11.043s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.hpp
+[11.044s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp
+[11.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/service_event_info.hpp
+[11.045s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.045s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.045s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_fastrtps_cpp.hpp
+[11.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/dds_fastrtps
+[11.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+[11.046s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.046s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.046s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.046s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.c
+[11.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_c.h
+[11.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+[11.047s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_c.so" to ""
+[11.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so
+[11.047s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_c.so" to ""
+[11.047s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs
+[11.047s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg
+[11.047s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail
+[11.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__rosidl_typesupport_introspection_cpp.hpp
+[11.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/include/service_msgs/service_msgs/msg/detail/service_event_info__type_support.cpp
+[11.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
+[11.047s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[11.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so
+[11.048s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_typesupport_cpp.so" to ""
+[11.049s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/ament_index/resource_index/rust_packages/service_msgs
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust/build.rs
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust/Cargo.toml
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust/src
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust/src/msg.rs
+[11.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/rust/src/lib.rs
+[11.051s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/pythonpath.sh
+[11.052s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/pythonpath.dsv
+[11.052s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info
+[11.052s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/PKG-INFO
+[11.052s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/top_level.txt
+[11.052s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/SOURCES.txt
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs-2.0.2-py3.12.egg-info/dependency_links.txt
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg
+[11.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info_s.c
+[11.054s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_c.c
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/_service_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[11.055s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py
+[11.096s] Listing '/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs'...
+[11.096s] Compiling '/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/__init__.py'...
+[11.096s] Listing '/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg'...
+[11.096s] Compiling '/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/__init__.py'...
+[11.097s] Compiling '/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/msg/_service_event_info.py'...
+[11.106s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so
+[11.107s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[11.108s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so
+[11.109s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[11.109s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so
+[11.110s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages/service_msgs/service_msgs_s__rosidl_typesupport_c.so" to ""
+[11.111s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so
+[11.112s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/service_msgs/lib/libservice_msgs__rosidl_generator_py.so" to ""
+[11.113s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.idl
+[11.114s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/msg/ServiceEventInfo.msg
+[11.114s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/ament_index/resource_index/package_run_dependencies/service_msgs
+[11.114s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/ament_index/resource_index/parent_prefix_path/service_msgs
+[11.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.sh
+[11.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/ament_prefix_path.dsv
+[11.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/path.sh
+[11.119s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/environment/path.dsv
+[11.119s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/local_setup.bash
+[11.120s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/local_setup.sh
+[11.120s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/local_setup.zsh
+[11.121s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/local_setup.dsv
+[11.122s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/package.dsv
+[11.122s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/ament_index/resource_index/packages/service_msgs
+[11.123s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport.cmake
+[11.124s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cExport-noconfig.cmake
+[11.124s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[11.125s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.125s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_cppExport.cmake
+[11.126s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.126s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.126s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport.cmake
+[11.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport.cmake
+[11.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[11.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[11.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport.cmake
+[11.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[11.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport.cmake
+[11.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/export_service_msgs__rosidl_generator_pyExport-noconfig.cmake
+[11.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake-extras.cmake
+[11.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[11.132s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[11.132s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.132s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.133s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig.cmake
+[11.133s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/cmake/service_msgsConfig-version.cmake
+[11.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/service_msgs/share/service_msgs/package.xml
+[11.144s] Invoked command in '/home/ohtoai/rust_ros_ws/build/service_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/service_msgs

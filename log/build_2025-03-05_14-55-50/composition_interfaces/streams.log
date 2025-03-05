@@ -1,0 +1,314 @@
+[0.056s] Invoking command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/composition_interfaces
+[0.173s] -- The C compiler identification is GNU 13.3.0
+[0.280s] -- The CXX compiler identification is GNU 13.3.0
+[0.306s] -- Detecting C compiler ABI info
+[0.458s] -- Detecting C compiler ABI info - done
+[0.467s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.596s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.613s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.622s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.806s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.924s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.028s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.030s] -- Found rcl_interfaces: 2.0.2 (/home/ohtoai/rust_ros_ws/install/rcl_interfaces/share/rcl_interfaces/cmake)
+[1.953s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.961s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.969s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.976s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.861s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.064s] -- Found PythonExtra: /usr/bin/python3  
+[4.774s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.831s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[4.834s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[4.850s] -- Configuring done (4.8s)
+[4.927s] -- Generating done (0.1s)
+[4.937s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/composition_interfaces
+[4.949s] Invoked command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/rcl_interfaces/composition_interfaces -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/composition_interfaces
+[4.950s] Invoking command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/composition_interfaces -- -j2 -l2
+[5.043s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.454s] [  1%] Built target composition_interfaces__rs
+[5.505s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.822s] [  3%] Built target composition_interfaces__rosidl_generator_type_description
+[5.860s] [  3%] Built target ament_cmake_python_copy_composition_interfaces
+[5.875s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.523s] [  7%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__description.c.o[0m
+[6.581s] [  9%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__functions.c.o[0m
+[6.657s] [ 10%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[6.701s] [ 12%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__description.c.o[0m
+[6.748s] [ 14%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__functions.c.o[0m
+[6.850s] [ 16%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[6.890s] [ 18%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__description.c.o[0m
+[6.938s] [ 20%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__functions.c.o[0m
+[7.006s] [ 21%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_c.dir/rosidl_generator_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[7.050s] [ 23%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_c.so[0m
+[7.094s] [ 23%] Built target composition_interfaces__rosidl_generator_c
+[7.123s] [ 25%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.751s] [ 25%] Built target composition_interfaces__cpp
+[7.941s] running egg_info
+[7.945s] creating composition_interfaces.egg-info
+[7.955s] writing composition_interfaces.egg-info/PKG-INFO
+[7.956s] writing dependency_links to composition_interfaces.egg-info/dependency_links.txt
+[7.956s] writing top-level names to composition_interfaces.egg-info/top_level.txt
+[7.956s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[7.998s] reading manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[7.999s] writing manifest file 'composition_interfaces.egg-info/SOURCES.txt'
+[8.032s] [ 25%] Built target ament_cmake_python_build_composition_interfaces_egg
+[8.046s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.578s] [ 29%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/load_node__type_support_c.cpp.o[0m
+[8.986s] [ 30%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/list_nodes__type_support_c.cpp.o[0m
+[9.366s] [ 32%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/composition_interfaces/srv/detail/unload_node__type_support_c.cpp.o[0m
+[9.876s] [ 34%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.965s] [ 34%] Built target composition_interfaces__rosidl_typesupport_fastrtps_c
+[9.977s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.442s] [ 38%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/load_node__type_support.c.o[0m
+[10.497s] [ 40%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/list_nodes__type_support.c.o[0m
+[10.551s] [ 41%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/composition_interfaces/srv/detail/unload_node__type_support.c.o[0m
+[10.603s] [ 43%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.643s] [ 43%] Built target composition_interfaces__rosidl_typesupport_introspection_c
+[10.658s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.037s] [ 47%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[11.076s] [ 49%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[11.127s] [ 50%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[11.176s] [ 52%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_c.so[0m
+[11.222s] [ 52%] Built target composition_interfaces__rosidl_typesupport_c
+[11.237s] [ 54%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.752s] [ 56%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/load_node__type_support.cpp.o[0m
+[12.448s] [ 58%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/list_nodes__type_support.cpp.o[0m
+[13.175s] [ 60%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/composition_interfaces/srv/detail/dds_fastrtps/unload_node__type_support.cpp.o[0m
+[15.426s] [ 61%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.685s] [ 61%] Built target composition_interfaces__rosidl_typesupport_fastrtps_cpp
+[15.727s] [ 63%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.580s] [ 65%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/load_node__type_support.cpp.o[0m
+[18.997s] [ 67%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/list_nodes__type_support.cpp.o[0m
+[20.766s] [ 69%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/composition_interfaces/srv/detail/unload_node__type_support.cpp.o[0m
+[21.684s] [ 70%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[21.909s] [ 70%] Built target composition_interfaces__rosidl_typesupport_introspection_cpp
+[21.934s] [ 72%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.388s] [ 74%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/load_node__type_support.cpp.o[0m
+[25.180s] [ 76%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/list_nodes__type_support.cpp.o[0m
+[26.052s] [ 78%] [32mBuilding CXX object CMakeFiles/composition_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/composition_interfaces/srv/unload_node__type_support.cpp.o[0m
+[26.821s] [ 80%] [32m[1mLinking CXX shared library libcomposition_interfaces__rosidl_typesupport_cpp.so[0m
+[27.028s] [ 80%] Built target composition_interfaces__rosidl_typesupport_cpp
+[27.090s] [ 80%] Built target composition_interfaces
+[27.159s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.965s] [ 81%] Built target composition_interfaces__py
+[29.017s] [ 83%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_load_node_s.c.o[0m
+[29.323s] [ 85%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_list_nodes_s.c.o[0m
+[29.604s] [ 87%] [32mBuilding C object CMakeFiles/composition_interfaces__rosidl_generator_py.dir/rosidl_generator_py/composition_interfaces/srv/_unload_node_s.c.o[0m
+[29.971s] [ 89%] [32m[1mLinking C shared library libcomposition_interfaces__rosidl_generator_py.so[0m
+[30.130s] [ 89%] Built target composition_interfaces__rosidl_generator_py
+[30.188s] [ 90%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.468s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[30.533s] [ 92%] Built target composition_interfaces_s__rosidl_typesupport_fastrtps_c
+[30.585s] [ 94%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.897s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[31.003s] [ 96%] Built target composition_interfaces_s__rosidl_typesupport_introspection_c
+[31.080s] [ 98%] [32mBuilding C object CMakeFiles/composition_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[31.331s] [100%] [32m[1mLinking C shared module rosidl_generator_py/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so[0m
+[31.426s] [100%] Built target composition_interfaces_s__rosidl_typesupport_c
+[31.461s] Invoked command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/composition_interfaces -- -j2 -l2
+[31.465s] Invoking command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/composition_interfaces
+[31.494s] -- Install configuration: ""
+[31.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/ament_index/resource_index/rosidl_interfaces/composition_interfaces
+[31.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.json
+[31.495s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.json
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.json
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_c__visibility_control.h
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.h
+[31.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__description.c
+[31.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.h
+[31.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.c
+[31.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__functions.h
+[31.501s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.h
+[31.501s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.h
+[31.503s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.h
+[31.503s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.h
+[31.503s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__functions.c
+[31.504s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__description.c
+[31.504s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[31.505s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__functions.c
+[31.505s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[31.505s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.h
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__description.c
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.h
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.h
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.h
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.h
+[31.506s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.sh
+[31.508s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/library_path.dsv
+[31.508s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so
+[31.508s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_c.so" to ""
+[31.508s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.511s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[31.511s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.511s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.511s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.511s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_c.h
+[31.512s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_c.h
+[31.512s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_c.h
+[31.513s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+[31.513s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[31.513s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.514s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.514s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.514s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_c.h
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.c
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_c.h
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.c
+[31.514s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.c
+[31.515s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_c.h
+[31.515s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+[31.516s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[31.516s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+[31.516s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_c.so" to ""
+[31.516s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.516s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[31.516s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.516s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.516s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.516s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.hpp
+[31.516s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__struct.hpp
+[31.517s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__builder.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__traits.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__struct.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__traits.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__struct.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__builder.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.hpp
+[31.520s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__traits.hpp
+[31.522s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__builder.hpp
+[31.522s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/list_nodes.hpp
+[31.522s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/load_node.hpp
+[31.524s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/unload_node.hpp
+[31.524s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.524s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg
+[31.524s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.525s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.525s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.525s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_fastrtps_cpp.hpp
+[31.525s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/dds_fastrtps
+[31.525s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_fastrtps_cpp.hpp
+[31.525s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[31.525s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.527s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.527s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces
+[31.527s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv
+[31.528s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail
+[31.528s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__rosidl_typesupport_introspection_cpp.hpp
+[31.528s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__rosidl_typesupport_introspection_cpp.hpp
+[31.530s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__type_support.cpp
+[31.530s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/list_nodes__rosidl_typesupport_introspection_cpp.hpp
+[31.530s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/load_node__type_support.cpp
+[31.530s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/include/composition_interfaces/composition_interfaces/srv/detail/unload_node__type_support.cpp
+[31.530s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+[31.533s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[31.533s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+[31.536s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so" to ""
+[31.536s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/ament_index/resource_index/rust_packages/composition_interfaces
+[31.536s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust
+[31.537s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust/build.rs
+[31.537s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust/Cargo.toml
+[31.538s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust/src
+[31.538s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust/src/srv.rs
+[31.538s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/rust/src/lib.rs
+[31.538s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.sh
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/pythonpath.dsv
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/PKG-INFO
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/top_level.txt
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/SOURCES.txt
+[31.540s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces-2.0.2-py3.12.egg-info/dependency_links.txt
+[31.541s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces
+[31.541s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.541s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv
+[31.541s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node_s.c
+[31.542s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py
+[31.542s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes_s.c
+[31.542s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py
+[31.542s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py
+[31.543s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node_s.c
+[31.543s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py
+[31.543s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[31.543s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[31.543s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[31.545s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/_composition_interfaces_s.ep.rosidl_typesupport_c.c
+[31.546s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[31.546s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py
+[31.659s] Listing '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces'...
+[31.659s] Compiling '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/__init__.py'...
+[31.659s] Listing '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv'...
+[31.659s] Compiling '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/__init__.py'...
+[31.659s] Compiling '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_list_nodes.py'...
+[31.659s] Compiling '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_load_node.py'...
+[31.660s] Compiling '/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/srv/_unload_node.py'...
+[31.664s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[31.664s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[31.665s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so
+[31.666s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[31.667s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so
+[31.667s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/python3.12/site-packages/composition_interfaces/composition_interfaces_s__rosidl_typesupport_c.so" to ""
+[31.668s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so
+[31.670s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/composition_interfaces/lib/libcomposition_interfaces__rosidl_generator_py.so" to ""
+[31.672s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.idl
+[31.672s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.idl
+[31.672s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.idl
+[31.672s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/LoadNode.srv
+[31.674s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/ListNodes.srv
+[31.674s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/srv/UnloadNode.srv
+[31.674s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/ament_index/resource_index/package_run_dependencies/composition_interfaces
+[31.675s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/ament_index/resource_index/parent_prefix_path/composition_interfaces
+[31.675s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.sh
+[31.675s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/ament_prefix_path.dsv
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/path.sh
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/environment/path.dsv
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.bash
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.sh
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.zsh
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/local_setup.dsv
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/package.dsv
+[31.681s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/ament_index/resource_index/packages/composition_interfaces
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-noconfig.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cppExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.682s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.683s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[31.684s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.684s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport.cmake
+[31.684s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/cmake/composition_interfacesConfig-version.cmake
+[31.686s] -- Installing: /home/ohtoai/rust_ros_ws/install/composition_interfaces/share/composition_interfaces/package.xml
+[31.689s] Invoked command in '/home/ohtoai/rust_ros_ws/build/composition_interfaces' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/rcl_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/composition_interfaces

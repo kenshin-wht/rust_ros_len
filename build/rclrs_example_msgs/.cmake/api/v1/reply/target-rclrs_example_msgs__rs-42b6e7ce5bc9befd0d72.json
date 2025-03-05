@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "rclrs_example_msgs__rs::@b1dccb6796c2db2c7be3",
+	"name" : "rclrs_example_msgs__rs",
+	"paths" : 
+	{
+		"build" : "rclrs_example_msgs__rs",
+		"source" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs/CMakeFiles/rclrs_example_msgs__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rosidl_generator_rs/rclrs_example_msgs/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

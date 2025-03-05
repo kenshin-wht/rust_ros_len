@@ -1,0 +1,1 @@
+cargo:rustc-link-search=/home/ohtoai/rust_ros_ws/install/rclrs_example_msgs/lib

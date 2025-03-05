@@ -1,0 +1,395 @@
+[0.036s] Invoking command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/diagnostic_msgs
+[0.122s] -- The C compiler identification is GNU 13.3.0
+[0.195s] -- The CXX compiler identification is GNU 13.3.0
+[0.226s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.389s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.547s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.557s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.843s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.000s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.164s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.168s] -- Found std_msgs: 5.3.5 (/home/ohtoai/rust_ros_ws/install/std_msgs/share/std_msgs/cmake)
+[2.268s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.272s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.275s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.280s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.010s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.061s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.260s] -- Found PythonExtra: /usr/bin/python3  
+[4.916s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.991s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[4.997s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.006s] -- Configuring done (5.0s)
+[5.092s] -- Generating done (0.1s)
+[5.108s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/diagnostic_msgs
+[5.119s] Invoked command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/diagnostic_msgs
+[5.122s] Invoking command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/diagnostic_msgs -- -j2 -l2
+[5.216s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[5.835s] [  1%] Built target diagnostic_msgs__rs
+[5.874s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.383s] [  2%] Built target diagnostic_msgs__rosidl_generator_type_description
+[6.427s] [  2%] Built target ament_cmake_python_copy_diagnostic_msgs
+[6.439s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.825s] [  5%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__description.c.o[0m
+[7.867s] [  6%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__functions.c.o[0m
+[7.946s] [  8%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[8.006s] [  9%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__description.c.o[0m
+[8.063s] [ 10%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__functions.c.o[0m
+[8.130s] [ 12%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[8.161s] [ 13%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__description.c.o[0m
+[8.217s] [ 14%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__functions.c.o[0m
+[8.266s] [ 16%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[8.306s] [ 17%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__description.c.o[0m
+[8.372s] [ 18%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__functions.c.o[0m
+[8.462s] [ 20%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[8.498s] [ 21%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__description.c.o[0m
+[8.567s] [ 22%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__functions.c.o[0m
+[8.723s] [ 24%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[8.767s] [ 25%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_c.so[0m
+[8.837s] [ 25%] Built target diagnostic_msgs__rosidl_generator_c
+[8.865s] [ 26%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.113s] [ 26%] Built target diagnostic_msgs__cpp
+[10.426s] running egg_info
+[10.427s] creating diagnostic_msgs.egg-info
+[10.447s] writing diagnostic_msgs.egg-info/PKG-INFO
+[10.447s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[10.447s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[10.448s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[10.514s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[10.515s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[10.559s] [ 26%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[10.585s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.566s] [ 29%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support_c.cpp.o[0m
+[12.248s] [ 30%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support_c.cpp.o[0m
+[12.868s] [ 32%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/key_value__type_support_c.cpp.o[0m
+[13.471s] [ 33%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support_c.cpp.o[0m
+[13.997s] [ 34%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/self_test__type_support_c.cpp.o[0m
+[14.778s] [ 36%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.915s] [ 36%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[14.939s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.729s] [ 38%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[15.788s] [ 40%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[15.858s] [ 41%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[15.895s] [ 42%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[15.970s] [ 44%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[16.085s] [ 45%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.140s] [ 45%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[16.170s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[16.662s] [ 48%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[16.711s] [ 49%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[16.780s] [ 50%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[16.827s] [ 52%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[16.883s] [ 53%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[16.933s] [ 54%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so[0m
+[16.981s] [ 54%] Built target diagnostic_msgs__rosidl_typesupport_c
+[16.997s] [ 56%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[17.823s] [ 57%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_array__type_support.cpp.o[0m
+[18.494s] [ 58%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_status__type_support.cpp.o[0m
+[19.102s] [ 60%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[19.741s] [ 61%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/add_diagnostics__type_support.cpp.o[0m
+[20.593s] [ 62%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/self_test__type_support.cpp.o[0m
+[21.466s] [ 64%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.583s] [ 64%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[21.615s] [ 65%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.573s] [ 66%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp.o[0m
+[23.121s] [ 68%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp.o[0m
+[23.531s] [ 69%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/key_value__type_support.cpp.o[0m
+[23.880s] [ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp.o[0m
+[24.333s] [ 72%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/self_test__type_support.cpp.o[0m
+[25.122s] [ 73%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[25.247s] [ 73%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[25.270s] [ 74%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[25.888s] [ 76%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[26.270s] [ 77%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[26.691s] [ 78%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[27.117s] [ 80%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[27.591s] [ 81%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[28.207s] [ 82%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so[0m
+[28.328s] [ 82%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[28.375s] [ 82%] Built target diagnostic_msgs
+[28.422s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.769s] [ 84%] Built target diagnostic_msgs__py
+[29.811s] [ 85%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_array_s.c.o[0m
+[29.990s] [ 86%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_status_s.c.o[0m
+[30.151s] [ 88%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_key_value_s.c.o[0m
+[30.335s] [ 89%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_add_diagnostics_s.c.o[0m
+[30.526s] [ 90%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_self_test_s.c.o[0m
+[30.760s] [ 92%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_py.so[0m
+[30.851s] [ 92%] Built target diagnostic_msgs__rosidl_generator_py
+[30.901s] [ 93%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.087s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[31.150s] [ 94%] Built target diagnostic_msgs_s__rosidl_typesupport_fastrtps_c
+[31.192s] [ 96%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.355s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[31.424s] [ 97%] Built target diagnostic_msgs_s__rosidl_typesupport_introspection_c
+[31.449s] [ 98%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.646s] [100%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so[0m
+[31.715s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_c
+[31.738s] Invoked command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/diagnostic_msgs -- -j2 -l2
+[31.739s] Invoking command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/diagnostic_msgs
+[31.752s] -- Install configuration: ""
+[31.753s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[31.753s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.json
+[31.753s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.json
+[31.754s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.json
+[31.754s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.json
+[31.754s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.json
+[31.754s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[31.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__description.c
+[31.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[31.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[31.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[31.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[31.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[31.758s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[31.758s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__description.c
+[31.758s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__description.c
+[31.758s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[31.759s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[31.759s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[31.759s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[31.760s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[31.760s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.760s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.760s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[31.760s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__description.c
+[31.761s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[31.762s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[31.762s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__description.c
+[31.762s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[31.763s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[31.763s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[31.763s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[31.763s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[31.764s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[31.764s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[31.765s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so" to ""
+[31.769s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.769s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.769s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.769s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[31.769s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[31.769s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[31.769s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.769s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.769s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.769s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[31.772s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[31.772s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[31.774s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.774s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.774s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.774s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.774s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[31.774s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[31.774s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[31.774s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[31.775s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[31.775s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[31.775s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.775s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.775s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.776s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[31.776s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[31.776s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[31.776s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[31.777s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[31.778s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.778s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[31.779s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[31.779s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.779s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.782s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[31.782s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp
+[31.783s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp
+[31.784s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[31.784s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[31.786s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[31.786s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[31.786s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.hpp
+[31.786s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.786s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[31.788s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[31.788s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[31.788s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.788s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.788s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[31.788s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.hpp
+[31.788s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[31.790s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[31.790s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[31.791s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[31.792s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.hpp
+[31.792s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[31.793s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[31.794s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[31.794s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.794s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.794s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.795s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[31.795s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[31.795s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[31.795s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[31.795s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.795s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.796s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.796s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[31.797s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[31.797s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[31.798s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.799s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.799s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[31.800s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[31.800s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[31.800s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[31.800s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[31.800s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[31.800s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[31.800s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[31.801s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[31.801s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[31.801s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[31.802s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[31.802s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[31.802s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[31.802s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[31.802s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[31.803s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.804s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[31.804s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[31.805s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/ament_index/resource_index/rust_packages/diagnostic_msgs
+[31.805s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust
+[31.806s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/build.rs
+[31.806s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/Cargo.toml
+[31.806s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/src
+[31.806s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/msg.rs
+[31.807s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/srv.rs
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/rust/src/lib.rs
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[31.808s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value_s.c
+[31.810s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[31.810s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[31.810s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py
+[31.810s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test_s.c
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[31.811s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.812s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py
+[31.898s] Listing '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py'...
+[31.899s] Listing '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py'...
+[31.899s] Listing '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv'...
+[31.899s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py'...
+[31.900s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py'...
+[31.900s] Compiling '/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py'...
+[31.915s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.915s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[31.915s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[31.916s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[31.916s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[31.918s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so" to ""
+[31.918s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[31.918s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[31.918s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[31.919s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[31.919s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[31.920s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[31.920s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[31.920s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[31.920s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[31.921s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[31.921s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[31.921s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[31.922s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[31.922s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[31.922s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[31.922s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[31.922s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[31.923s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[31.923s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[31.924s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[31.924s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[31.924s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[31.925s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[31.925s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[31.926s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[31.926s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.927s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.927s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[31.928s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.928s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.928s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[31.928s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.929s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[31.929s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.930s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[31.930s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.930s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.931s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[31.931s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.932s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[31.932s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[31.932s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[31.933s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.933s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.933s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.934s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.934s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.934s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.935s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[31.936s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[31.936s] -- Installing: /home/ohtoai/rust_ros_ws/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[31.938s] Invoked command in '/home/ohtoai/rust_ros_ws/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/diagnostic_msgs

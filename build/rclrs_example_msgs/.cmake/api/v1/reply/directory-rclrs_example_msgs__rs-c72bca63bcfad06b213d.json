@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rclrs_example_msgs__rs",
+		"source" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs"
+	}
+}

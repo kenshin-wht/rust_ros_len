@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7039fcb02134488981b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "rclrs_example_msgs__rs",
+					"jsonFile" : "directory-rclrs_example_msgs__rs-c72bca63bcfad06b213d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "rclrs_example_msgs__py",
+					"jsonFile" : "directory-rclrs_example_msgs__py-1572aa86a251347feea1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs/rclrs_example_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "rclrs_example_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rclrs_example_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rclrs_example_msgs_egg-29e6bf7c308f2720cf66.json",
+					"name" : "ament_cmake_python_build_rclrs_example_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rclrs_example_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rclrs_example_msgs-a9245871c097e33e2621.json",
+					"name" : "ament_cmake_python_copy_rclrs_example_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs-4a64fad53e13d5f3de37.json",
+					"name" : "rclrs_example_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__cpp-2591ce16281023ab3442.json",
+					"name" : "rclrs_example_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rclrs_example_msgs__py::@d867d548ca124de37b0b",
+					"jsonFile" : "target-rclrs_example_msgs__py-fc5af1ff233954e0ba56.json",
+					"name" : "rclrs_example_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_generator_c-9d4da6d3bcd5333b9f5b.json",
+					"name" : "rclrs_example_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_generator_py-a91fe40eb2afe02e0d4d.json",
+					"name" : "rclrs_example_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_generator_type_description-e7330f70cd94c07ca4b5.json",
+					"name" : "rclrs_example_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_c-cae78c6983645906808c.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_cpp-476786dd85772086f7a5.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_fastrtps_c-4876ef73e6734ad1c88e.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp-398ce8f4bacbb70edd0d.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_introspection_c-74edfe53210d1571a34a.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs__rosidl_typesupport_introspection_cpp-cd5aec0bdaaea5901276.json",
+					"name" : "rclrs_example_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rclrs_example_msgs__rs::@b1dccb6796c2db2c7be3",
+					"jsonFile" : "target-rclrs_example_msgs__rs-42b6e7ce5bc9befd0d72.json",
+					"name" : "rclrs_example_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs_s__rosidl_typesupport_c-66a7f3441532abd943ae.json",
+					"name" : "rclrs_example_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs_s__rosidl_typesupport_fastrtps_c-90a504464b76be4dcc06.json",
+					"name" : "rclrs_example_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs_s__rosidl_typesupport_introspection_c-82723a1a87c5f3778460.json",
+					"name" : "rclrs_example_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rclrs_example_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rclrs_example_msgs_uninstall-f5d9dd674bb564190437.json",
+					"name" : "rclrs_example_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-18493c1fb47f26d11e88.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ohtoai/rust_ros_ws/build/rclrs_example_msgs",
+		"source" : "/home/ohtoai/rust_ros_ws/src/ros2_rust/examples/rclrs_example_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

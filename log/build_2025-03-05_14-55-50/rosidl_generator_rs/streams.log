@@ -1,0 +1,87 @@
+[0.022s] Invoking command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2-rust/rosidl_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs
+[0.116s] -- The C compiler identification is GNU 13.3.0
+[0.230s] -- The CXX compiler identification is GNU 13.3.0
+[0.258s] -- Detecting C compiler ABI info
+[0.361s] -- Detecting C compiler ABI info - done
+[0.377s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.377s] -- Detecting C compile features
+[0.377s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.499s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.506s] -- Detecting CXX compile features
+[0.507s] -- Detecting CXX compile features - done
+[0.509s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.670s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.787s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.795s] -- Found rosidl_typesupport_introspection_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_typesupport_introspection_c/cmake)
+[1.112s] -- Configuring done (1.1s)
+[1.118s] -- Generating done (0.0s)
+[1.120s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/rosidl_generator_rs
+[1.126s] Invoked command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2-rust/rosidl_rust/rosidl_generator_rs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs
+[1.128s] Invoking command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/rosidl_generator_rs -- -j2 -l2
+[1.184s] Built target ament_cmake_python_copy_rosidl_generator_rs
+[1.353s] running egg_info
+[1.353s] creating rosidl_generator_rs.egg-info
+[1.367s] writing rosidl_generator_rs.egg-info/PKG-INFO
+[1.369s] writing dependency_links to rosidl_generator_rs.egg-info/dependency_links.txt
+[1.369s] writing top-level names to rosidl_generator_rs.egg-info/top_level.txt
+[1.369s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[1.405s] reading manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[1.405s] writing manifest file 'rosidl_generator_rs.egg-info/SOURCES.txt'
+[1.428s] Built target ament_cmake_python_build_rosidl_generator_rs_egg
+[1.439s] Invoked command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/rosidl_generator_rs -- -j2 -l2
+[1.440s] Invoking command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/rosidl_generator_rs
+[1.447s] -- Install configuration: ""
+[1.448s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_rs
+[1.448s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/ament_index/resource_index/rosidl_runtime_packages/rosidl_generator_rs
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.sh
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/pythonpath.dsv
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.1-py3.12.egg-info
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.1-py3.12.egg-info/PKG-INFO
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.1-py3.12.egg-info/top_level.txt
+[1.449s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.1-py3.12.egg-info/SOURCES.txt
+[1.450s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs-0.4.1-py3.12.egg-info/dependency_links.txt
+[1.450s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs
+[1.450s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py
+[1.487s] Listing '/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs'...
+[1.487s] Compiling '/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages/rosidl_generator_rs/__init__.py'...
+[1.491s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_rs
+[1.491s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_rs
+[1.492s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.sh
+[1.492s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/ament_prefix_path.dsv
+[1.492s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.sh
+[1.492s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/environment/path.dsv
+[1.492s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.bash
+[1.493s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.sh
+[1.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.zsh
+[1.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/local_setup.dsv
+[1.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/package.dsv
+[1.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/ament_index/resource_index/packages/rosidl_generator_rs
+[1.494s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake
+[1.495s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.495s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.495s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake
+[1.496s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake
+[1.496s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/package.xml
+[1.496s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[1.496s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.496s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[1.496s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[1.496s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/rosidl_generator_rs/rosidl_generator_rs
+[1.497s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake
+[1.497s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/register_rs.cmake
+[1.497s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/custom_command.cmake
+[1.497s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake
+[1.497s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource
+[1.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/Cargo.toml.em
+[1.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv_idiomatic.rs.em
+[1.498s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg_idiomatic.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/action.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/lib.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/build.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg.rs.em
+[1.499s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/msg_rmw.rs.em
+[1.500s] -- Installing: /home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/resource/srv_rmw.rs.em
+[1.501s] Invoked command in '/home/ohtoai/rust_ros_ws/build/rosidl_generator_rs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/rosidl_generator_rs

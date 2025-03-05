@@ -1,0 +1,3 @@
+/home/ohtoai/rust_ros_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalID.idl
+/home/ohtoai/rust_ros_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatus.idl
+/home/ohtoai/rust_ros_ws/build/actionlib_msgs/rosidl_adapter/actionlib_msgs:msg/GoalStatusArray.idl

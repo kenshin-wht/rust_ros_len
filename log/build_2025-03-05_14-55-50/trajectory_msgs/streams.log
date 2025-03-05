@@ -1,0 +1,346 @@
+[0.074s] Invoking command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/trajectory_msgs
+[0.210s] -- The C compiler identification is GNU 13.3.0
+[0.283s] -- The CXX compiler identification is GNU 13.3.0
+[0.304s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.549s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.692s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.818s] -- Found builtin_interfaces: 2.0.2 (/home/ohtoai/rust_ros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.852s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.864s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found geometry_msgs: 5.3.5 (/home/ohtoai/rust_ros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[0.960s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[0.987s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.914s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.918s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.921s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.924s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.067s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.131s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.353s] -- Found PythonExtra: /usr/bin/python3  
+[5.076s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.170s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.173s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.183s] -- Configuring done (5.1s)
+[5.317s] -- Generating done (0.1s)
+[5.341s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/trajectory_msgs
+[5.355s] Invoked command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/trajectory_msgs
+[5.356s] Invoking command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/trajectory_msgs -- -j2 -l2
+[5.435s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.894s] [  1%] Built target trajectory_msgs__rosidl_generator_type_description
+[5.933s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.507s] [  3%] Built target trajectory_msgs__rs
+[6.570s] [  3%] Built target ament_cmake_python_copy_trajectory_msgs
+[6.609s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.564s] [  4%] Built target trajectory_msgs__cpp
+[7.579s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.599s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__description.c.o[0m
+[8.692s] [  9%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[8.789s] [ 10%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[8.838s] [ 12%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__description.c.o[0m
+[8.895s] [ 13%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[8.977s] [ 15%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[9.029s] [ 16%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c.o[0m
+[9.103s] [ 18%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[9.198s] [ 20%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[9.264s] [ 21%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c.o[0m
+[9.319s] [ 23%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[9.436s] [ 24%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[9.495s] [ 26%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[9.536s] [ 26%] Built target trajectory_msgs__rosidl_generator_c
+[9.773s] running egg_info
+[9.778s] creating trajectory_msgs.egg-info
+[9.805s] writing trajectory_msgs.egg-info/PKG-INFO
+[9.805s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[9.805s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[9.806s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[9.878s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[9.879s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[9.908s] [ 26%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[9.920s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.597s] [ 29%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[11.180s] [ 30%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[11.775s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[12.495s] [ 33%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[13.174s] [ 35%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.300s] [ 35%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[13.315s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.992s] [ 38%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[14.081s] [ 40%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[14.189s] [ 41%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[14.289s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[14.352s] [ 44%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[14.426s] [ 44%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[14.440s] [ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.069s] [ 47%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[15.161s] [ 49%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[15.232s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[15.283s] [ 52%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[15.356s] [ 53%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[15.446s] [ 53%] Built target trajectory_msgs__rosidl_typesupport_c
+[15.465s] [ 55%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.053s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[16.604s] [ 58%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[17.074s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[17.758s] [ 61%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[18.175s] [ 63%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[18.273s] [ 63%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[18.287s] [ 64%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.879s] [ 66%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[19.263s] [ 67%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[19.650s] [ 69%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[20.035s] [ 70%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[20.417s] [ 72%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[20.503s] [ 72%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[20.520s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[21.269s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[21.935s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[22.621s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[23.316s] [ 80%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[23.908s] [ 81%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.996s] [ 81%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[24.031s] [ 81%] Built target trajectory_msgs
+[24.083s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.156s] [ 83%] Built target trajectory_msgs__py
+[25.191s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[25.333s] [ 86%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[25.484s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[25.686s] [ 89%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[25.833s] [ 90%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_py.so[0m
+[25.892s] [ 90%] Built target trajectory_msgs__rosidl_generator_py
+[25.929s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.038s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[26.105s] [ 93%] Built target trajectory_msgs_s__rosidl_typesupport_fastrtps_c
+[26.141s] [ 95%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.268s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[26.323s] [ 96%] Built target trajectory_msgs_s__rosidl_typesupport_introspection_c
+[26.348s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[26.529s] [100%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so[0m
+[26.583s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_c
+[26.613s] Invoked command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/trajectory_msgs -- -j2 -l2
+[26.614s] Invoking command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/trajectory_msgs
+[26.628s] -- Install configuration: ""
+[26.628s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[26.628s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.json
+[26.628s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.json
+[26.629s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.json
+[26.629s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.json
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__description.c
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c
+[26.630s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[26.631s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[26.632s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__description.c
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[26.633s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[26.636s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[26.636s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.636s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.636s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[26.636s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[26.637s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.637s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.637s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[26.637s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[26.637s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[26.638s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[26.638s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.638s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.638s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.639s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.641s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.641s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.641s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.641s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[26.641s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[26.642s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[26.642s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[26.642s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[26.642s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[26.642s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[26.642s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[26.644s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[26.644s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[26.645s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[26.645s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/ament_index/resource_index/rust_packages/trajectory_msgs
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust/build.rs
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust/Cargo.toml
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust/src
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust/src/msg.rs
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/rust/src/lib.rs
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[26.645s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[26.646s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py
+[26.740s] Listing '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs'...
+[26.740s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py'...
+[26.740s] Listing '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg'...
+[26.740s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py'...
+[26.740s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[26.740s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[26.741s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[26.741s] Compiling '/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[26.746s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.747s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[26.749s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[26.749s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[26.749s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[26.750s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so" to ""
+[26.750s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[26.750s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[26.751s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[26.752s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[26.752s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[26.752s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[26.752s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[26.752s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[26.755s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[26.756s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[26.757s] -- Installing: /home/ohtoai/rust_ros_ws/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[26.759s] Invoked command in '/home/ohtoai/rust_ros_ws/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/trajectory_msgs

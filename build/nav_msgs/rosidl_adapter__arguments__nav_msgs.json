@@ -1,0 +1,14 @@
+{
+  "package_name": "nav_msgs",
+  "non_idl_tuples": [
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:msg/GridCells.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:msg/MapMetaData.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:msg/OccupancyGrid.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:msg/Odometry.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:msg/Path.msg",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:srv/GetMap.srv",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:srv/GetPlan.srv",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:srv/LoadMap.srv",
+    "/home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs:srv/SetMap.srv"
+  ]
+}

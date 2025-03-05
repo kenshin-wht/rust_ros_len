@@ -1,0 +1,256 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rclrs_example_msgs/msg/VariousTypes",
+      "fields": [
+        {
+          "name": "bool_member",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "True"
+        },
+        {
+          "name": "int8_member",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "1"
+        },
+        {
+          "name": "uint8_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "2"
+        },
+        {
+          "name": "byte_member",
+          "type": {
+            "type_id": 16,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "3"
+        },
+        {
+          "name": "float32_member",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "0.01"
+        },
+        {
+          "name": "float_array",
+          "type": {
+            "type_id": 58,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(1.0, 2.0, 3.0)"
+        },
+        {
+          "name": "float_seq_bounded",
+          "type": {
+            "type_id": 106,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(4.0, 5.0)"
+        },
+        {
+          "name": "float_seq_unbounded",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(6.0,)"
+        },
+        {
+          "name": "string_member",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "\u03a7\u03b1\u03af\u03c1\u03b5\u03c4\u03b5 \u4f60\u597d"
+        },
+        {
+          "name": "wstring_member",
+          "type": {
+            "type_id": 18,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "\u03b1\u03bd\u03c4\u03af\u03bf \u03c3\u03bf\u03c5 \u518d\u89c1"
+        },
+        {
+          "name": "bounded_string_member",
+          "type": {
+            "type_id": 21,
+            "capacity": 0,
+            "string_capacity": 3,
+            "nested_type_name": ""
+          },
+          "default_value": "aou"
+        },
+        {
+          "name": "bounded_wstring_member",
+          "type": {
+            "type_id": 22,
+            "capacity": 0,
+            "string_capacity": 3,
+            "nested_type_name": ""
+          },
+          "default_value": "\u00e4\u00f6\u00fc"
+        },
+        {
+          "name": "string_array",
+          "type": {
+            "type_id": 65,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "string_seq_bounded",
+          "type": {
+            "type_id": 113,
+            "capacity": 4,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "string_seq_unbounded",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "bounded_string_array",
+          "type": {
+            "type_id": 69,
+            "capacity": 4,
+            "string_capacity": 1,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "bounded_string_seq_bounded",
+          "type": {
+            "type_id": 117,
+            "capacity": 4,
+            "string_capacity": 1,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "bounded_string_seq_unbounded",
+          "type": {
+            "type_id": 165,
+            "capacity": 0,
+            "string_capacity": 1,
+            "nested_type_name": ""
+          },
+          "default_value": "('R', 'O', 'S', '2')"
+        },
+        {
+          "name": "nested_member",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rclrs_example_msgs/msg/NestedType"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "nested_array",
+          "type": {
+            "type_id": 49,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": "rclrs_example_msgs/msg/NestedType"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "nested_seq_unbounded",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "rclrs_example_msgs/msg/NestedType"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "nested_seq_bounded",
+          "type": {
+            "type_id": 97,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": "rclrs_example_msgs/msg/NestedType"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "rclrs_example_msgs/msg/NestedType",
+        "fields": [
+          {
+            "name": "effect",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": "discombobulate"
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "rclrs_example_msgs/msg/VariousTypes",
+      "hash_string": "RIHS01_49de756b02efa51abd2225ba66cab24fc41710f4aa16440a4223a0449fefaefe"
+    },
+    {
+      "type_name": "rclrs_example_msgs/msg/NestedType",
+      "hash_string": "RIHS01_4ea44fc635b859efd6decdaa9401a2b5a59ab24a9250896eda9103bb0dc9d8c7"
+    }
+  ]
+}

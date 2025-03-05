@@ -1,0 +1,241 @@
+[0.058s] Invoking command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/stereo_msgs
+[0.167s] -- The C compiler identification is GNU 13.3.0
+[0.252s] -- The CXX compiler identification is GNU 13.3.0
+[0.277s] -- Detecting C compiler ABI info
+[0.413s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.615s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.637s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.650s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.887s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.059s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.210s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.218s] -- Found sensor_msgs: 5.3.5 (/home/ohtoai/rust_ros_ws/install/sensor_msgs/share/sensor_msgs/cmake)
+[2.493s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.496s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.500s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.505s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.772s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.000s] -- Found PythonExtra: /usr/bin/python3  
+[5.741s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.878s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.882s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.898s] -- Configuring done (5.8s)
+[5.968s] -- Generating done (0.1s)
+[5.992s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/stereo_msgs
+[6.006s] Invoked command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/stereo_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/stereo_msgs
+[6.006s] Invoking command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/stereo_msgs -- -j2 -l2
+[6.085s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.476s] [  2%] Built target stereo_msgs__rs
+[6.522s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.860s] [  5%] Built target stereo_msgs__rosidl_generator_type_description
+[6.923s] [  5%] Built target ament_cmake_python_copy_stereo_msgs
+[6.947s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.543s] [ 11%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__description.c.o[0m
+[7.614s] [ 14%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__functions.c.o[0m
+[7.681s] [ 17%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_c.dir/rosidl_generator_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[7.730s] [ 20%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_c.so[0m
+[7.800s] [ 20%] Built target stereo_msgs__rosidl_generator_c
+[7.842s] [ 22%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.300s] [ 22%] Built target stereo_msgs__cpp
+[8.567s] running egg_info
+[8.568s] creating stereo_msgs.egg-info
+[8.584s] writing stereo_msgs.egg-info/PKG-INFO
+[8.585s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[8.585s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[8.585s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[8.651s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[8.651s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[8.687s] [ 22%] Built target ament_cmake_python_build_stereo_msgs_egg
+[8.707s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.151s] [ 28%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stereo_msgs/msg/detail/disparity_image__type_support_c.cpp.o[0m
+[9.712s] [ 31%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.803s] [ 31%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[9.831s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.234s] [ 37%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stereo_msgs/msg/detail/disparity_image__type_support.c.o[0m
+[10.281s] [ 40%] [32m[1mLinking C shared library libstereo_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.356s] [ 40%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[10.369s] [ 42%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.785s] [ 45%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[10.854s] [ 48%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_c.so[0m
+[10.924s] [ 48%] Built target stereo_msgs__rosidl_typesupport_c
+[10.944s] [ 51%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.416s] [ 54%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stereo_msgs/msg/detail/dds_fastrtps/disparity_image__type_support.cpp.o[0m
+[12.139s] [ 57%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.201s] [ 57%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[12.238s] [ 60%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.672s] [ 62%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stereo_msgs/msg/detail/disparity_image__type_support.cpp.o[0m
+[13.102s] [ 65%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.196s] [ 65%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[13.216s] [ 68%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.579s] [ 71%] [32mBuilding CXX object CMakeFiles/stereo_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stereo_msgs/msg/disparity_image__type_support.cpp.o[0m
+[14.020s] [ 74%] [32m[1mLinking CXX shared library libstereo_msgs__rosidl_typesupport_cpp.so[0m
+[14.112s] [ 74%] Built target stereo_msgs__rosidl_typesupport_cpp
+[14.170s] [ 74%] Built target stereo_msgs
+[14.195s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.944s] [ 77%] Built target stereo_msgs__py
+[14.990s] [ 80%] [32mBuilding C object CMakeFiles/stereo_msgs__rosidl_generator_py.dir/rosidl_generator_py/stereo_msgs/msg/_disparity_image_s.c.o[0m
+[15.184s] [ 82%] [32m[1mLinking C shared library libstereo_msgs__rosidl_generator_py.so[0m
+[15.259s] [ 82%] Built target stereo_msgs__rosidl_generator_py
+[15.302s] [ 85%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.436s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.500s] [ 88%] Built target stereo_msgs_s__rosidl_typesupport_fastrtps_c
+[15.533s] [ 91%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.679s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[15.729s] [ 94%] Built target stereo_msgs_s__rosidl_typesupport_introspection_c
+[15.779s] [ 97%] [32mBuilding C object CMakeFiles/stereo_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[15.910s] [100%] [32m[1mLinking C shared module rosidl_generator_py/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so[0m
+[15.945s] [100%] Built target stereo_msgs_s__rosidl_typesupport_c
+[15.968s] Invoked command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/stereo_msgs -- -j2 -l2
+[15.969s] Invoking command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/stereo_msgs
+[15.985s] -- Install configuration: ""
+[15.986s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[15.986s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.json
+[15.986s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.986s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.986s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[15.987s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[15.987s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[15.987s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[15.988s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__description.c
+[15.988s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[15.990s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[15.990s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[15.990s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[15.990s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[15.990s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[15.991s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[15.991s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so" to ""
+[15.991s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.991s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.992s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[15.992s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[15.992s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.992s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[15.993s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[15.993s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.993s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.994s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[15.994s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[15.994s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[15.994s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.994s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[15.995s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so" to ""
+[15.995s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[15.995s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so" to ""
+[15.995s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.995s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.996s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[15.996s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[15.996s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.997s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.997s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[15.997s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[15.997s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[15.998s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.998s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[15.998s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.998s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[15.999s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[15.999s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[16.000s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[16.000s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[16.000s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[16.000s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[16.001s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[16.002s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so" to ""
+[16.002s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/ament_index/resource_index/rust_packages/stereo_msgs
+[16.002s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust
+[16.002s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust/build.rs
+[16.002s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust/Cargo.toml
+[16.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust/src
+[16.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust/src/msg.rs
+[16.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/rust/src/lib.rs
+[16.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[16.003s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[16.004s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.5-py3.12.egg-info
+[16.004s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[16.004s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[16.004s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[16.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[16.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs
+[16.005s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[16.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg
+[16.006s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py
+[16.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image_s.c
+[16.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py
+[16.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[16.007s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.008s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[16.008s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.009s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/__init__.py
+[16.067s] Listing '/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs'...
+[16.067s] Compiling '/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/__init__.py'...
+[16.067s] Listing '/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg'...
+[16.067s] Compiling '/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py'...
+[16.067s] Compiling '/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py'...
+[16.075s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[16.076s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.076s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[16.077s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[16.077s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[16.078s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so" to ""
+[16.078s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[16.079s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so" to ""
+[16.079s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[16.079s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[16.079s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[16.080s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[16.080s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[16.080s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[16.080s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[16.081s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[16.082s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[16.082s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[16.083s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[16.083s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[16.083s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/package.dsv
+[16.084s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[16.085s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[16.085s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[16.085s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[16.086s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.086s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[16.086s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.087s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[16.087s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[16.087s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[16.087s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.087s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.088s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[16.088s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.088s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[16.088s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[16.088s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[16.089s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[16.089s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[16.089s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.090s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.090s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[16.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[16.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[16.092s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[16.092s] -- Installing: /home/ohtoai/rust_ros_ws/install/stereo_msgs/share/stereo_msgs/package.xml
+[16.095s] Invoked command in '/home/ohtoai/rust_ros_ws/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs:/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/sensor_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/stereo_msgs

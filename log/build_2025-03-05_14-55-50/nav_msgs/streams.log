@@ -1,0 +1,534 @@
+[0.084s] Invoking command in '/home/ohtoai/rust_ros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/nav_msgs
+[0.201s] -- The C compiler identification is GNU 13.3.0
+[0.285s] -- The CXX compiler identification is GNU 13.3.0
+[0.305s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.432s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.450s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.571s] -- Detecting CXX compile features
+[0.571s] -- Detecting CXX compile features - done
+[0.573s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.764s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.922s] -- Found builtin_interfaces: 2.0.2 (/home/ohtoai/rust_ros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[0.975s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.987s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.027s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.061s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.081s] -- Found geometry_msgs: 5.3.5 (/home/ohtoai/rust_ros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.132s] -- Found rosidl_default_generators: 1.6.0 (/home/ohtoai/rust_ros_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[1.165s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.327s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.339s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.352s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.365s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.295s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.503s] -- Found PythonExtra: /usr/bin/python3  
+[5.249s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.363s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[5.370s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[5.382s] -- Configuring done (5.3s)
+[5.478s] -- Generating done (0.1s)
+[5.503s] -- Build files have been written to: /home/ohtoai/rust_ros_ws/build/nav_msgs
+[5.519s] Invoked command in '/home/ohtoai/rust_ros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ohtoai/rust_ros_ws/src/ros2/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/ohtoai/rust_ros_ws/install/nav_msgs
+[5.519s] Invoking command in '/home/ohtoai/rust_ros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/nav_msgs -- -j2 -l2
+[5.611s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.437s] [  1%] Built target nav_msgs__rs
+[6.485s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.378s] [  2%] Built target nav_msgs__rosidl_generator_type_description
+[7.465s] [  2%] Built target ament_cmake_python_copy_nav_msgs
+[7.517s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.665s] [  4%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__description.c.o[0m
+[9.754s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[9.848s] [  6%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[9.897s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__description.c.o[0m
+[9.962s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[10.042s] [  8%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[10.079s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__description.c.o[0m
+[10.142s] [ 10%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[10.212s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[10.260s] [ 12%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__description.c.o[0m
+[10.342s] [ 13%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[10.419s] [ 14%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[10.465s] [ 14%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__description.c.o[0m
+[10.546s] [ 15%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[10.618s] [ 16%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[10.666s] [ 17%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__description.c.o[0m
+[10.765s] [ 18%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[10.881s] [ 19%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[10.958s] [ 20%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__description.c.o[0m
+[11.042s] [ 21%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[11.144s] [ 21%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[11.186s] [ 22%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__description.c.o[0m
+[11.269s] [ 23%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[11.372s] [ 24%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[11.422s] [ 25%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__description.c.o[0m
+[11.495s] [ 26%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[11.602s] [ 27%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[11.663s] [ 27%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[11.719s] [ 27%] Built target nav_msgs__rosidl_generator_c
+[11.759s] [ 27%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.638s] [ 27%] Built target nav_msgs__cpp
+[13.855s] running egg_info
+[13.856s] creating nav_msgs.egg-info
+[13.881s] writing nav_msgs.egg-info/PKG-INFO
+[13.882s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[13.885s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[13.885s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[13.952s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[13.952s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[13.999s] [ 27%] Built target ament_cmake_python_build_nav_msgs_egg
+[14.019s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.714s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[16.353s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[16.951s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[17.734s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[18.340s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[18.924s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[19.411s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[19.934s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[20.508s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[21.058s] [ 37%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.157s] [ 37%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[21.171s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.820s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[23.390s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[23.809s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[24.511s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[25.051s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[25.805s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[26.662s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[27.545s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[28.249s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[29.282s] [ 46%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[29.449s] [ 46%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[29.464s] [ 47%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[30.679s] [ 48%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[30.753s] [ 49%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[30.833s] [ 50%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[30.895s] [ 51%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[30.959s] [ 52%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[31.034s] [ 52%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[31.089s] [ 53%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[31.160s] [ 54%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[31.235s] [ 55%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[31.296s] [ 56%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[31.352s] [ 56%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[31.364s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.373s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[32.441s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[32.479s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[32.558s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[32.628s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[32.675s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[32.748s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[32.815s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[32.886s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[32.966s] [ 66%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[33.046s] [ 66%] Built target nav_msgs__rosidl_typesupport_c
+[33.061s] [ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[34.317s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[34.861s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[35.312s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[35.713s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[36.166s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[36.580s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[37.213s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[37.943s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[38.602s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[39.222s] [ 75%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[39.354s] [ 75%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[39.377s] [ 75%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[40.346s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[40.734s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[41.073s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[41.533s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[41.859s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[42.292s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[42.906s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[43.432s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[44.101s] [ 83%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[44.614s] [ 84%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[44.739s] [ 84%] Built target nav_msgs__rosidl_typesupport_cpp
+[44.780s] [ 84%] Built target nav_msgs
+[44.822s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[47.042s] [ 85%] Built target nav_msgs__py
+[47.089s] [ 86%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[47.255s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[47.477s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[47.790s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[47.999s] [ 90%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[48.202s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[48.402s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[48.622s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[48.829s] [ 93%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[48.984s] [ 94%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_py.so[0m
+[49.065s] [ 94%] Built target nav_msgs__rosidl_generator_py
+[49.114s] [ 95%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[49.343s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[49.416s] [ 96%] Built target nav_msgs_s__rosidl_typesupport_fastrtps_c
+[49.440s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[49.657s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[49.721s] [ 98%] Built target nav_msgs_s__rosidl_typesupport_introspection_c
+[49.746s] [ 99%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[49.970s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so[0m
+[50.021s] [100%] Built target nav_msgs_s__rosidl_typesupport_c
+[50.034s] Invoked command in '/home/ohtoai/rust_ros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohtoai/rust_ros_ws/build/nav_msgs -- -j2 -l2
+[50.036s] Invoking command in '/home/ohtoai/rust_ros_ws/build/nav_msgs': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/nav_msgs
+[50.044s] -- Install configuration: ""
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.json
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.json
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.json
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.json
+[50.045s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Path.json
+[50.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.json
+[50.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.json
+[50.046s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.json
+[50.047s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.json
+[50.048s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[50.050s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[50.051s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[50.051s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[50.051s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__description.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__description.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__description.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__description.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[50.053s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__description.c
+[50.054s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[50.054s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[50.054s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__description.c
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[50.056s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__description.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__description.c
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[50.060s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__description.c
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[50.061s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[50.064s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[50.064s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[50.064s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[50.064s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.065s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.065s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[50.067s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[50.068s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.068s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.068s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[50.068s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[50.070s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[50.070s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[50.073s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[50.073s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[50.073s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.074s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.075s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.076s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[50.077s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[50.078s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp
+[50.078s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[50.078s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[50.083s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[50.090s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[50.091s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[50.097s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[50.098s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp
+[50.098s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.hpp
+[50.099s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[50.099s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[50.099s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[50.100s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.hpp
+[50.100s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[50.102s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[50.105s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[50.107s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[50.109s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[50.110s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[50.110s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.110s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.110s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[50.110s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[50.110s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[50.111s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[50.112s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[50.112s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.hpp
+[50.112s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp
+[50.112s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[50.113s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[50.113s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.hpp
+[50.115s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[50.116s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[50.116s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[50.116s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[50.118s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.118s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.118s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[50.118s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[50.119s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[50.119s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.120s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.120s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[50.121s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[50.122s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[50.122s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[50.122s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[50.123s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[50.125s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.125s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.125s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.126s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[50.128s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[50.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[50.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[50.129s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[50.130s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[50.130s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.130s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[50.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[50.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[50.131s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[50.132s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[50.134s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[50.135s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[50.135s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[50.135s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs
+[50.135s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[50.135s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[50.135s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[50.138s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[50.140s] -- Up-to-date: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[50.141s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[50.141s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[50.142s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[50.142s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[50.142s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[50.142s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[50.143s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[50.145s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[50.145s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[50.145s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[50.145s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[50.146s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[50.146s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/ament_index/resource_index/rust_packages/nav_msgs
+[50.146s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust
+[50.146s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/build.rs
+[50.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/Cargo.toml
+[50.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/src
+[50.149s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/src/msg.rs
+[50.150s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/src/srv.rs
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/rust/src/lib.rs
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/PKG-INFO
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/top_level.txt
+[50.151s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/SOURCES.txt
+[50.152s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.5-py3.12.egg-info/dependency_links.txt
+[50.152s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs
+[50.152s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[50.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[50.153s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid_s.c
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path_s.c
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry_s.c
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells_s.c
+[50.155s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data_s.c
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map_s.c
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan_s.c
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py
+[50.156s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py
+[50.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py
+[50.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map_s.c
+[50.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map_s.c
+[50.157s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py
+[50.158s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[50.158s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[50.158s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.158s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py
+[50.299s] Listing '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py'...
+[50.299s] Listing '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py'...
+[50.299s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py'...
+[50.300s] Listing '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv'...
+[50.300s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py'...
+[50.300s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py'...
+[50.300s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py'...
+[50.300s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py'...
+[50.300s] Compiling '/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py'...
+[50.314s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[50.314s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[50.314s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[50.314s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[50.314s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[50.314s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so" to ""
+[50.314s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[50.315s] -- Set non-toolchain portion of runtime path of "/home/ohtoai/rust_ros_ws/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[50.315s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[50.315s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[50.316s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[50.316s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[50.317s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[50.317s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[50.317s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[50.317s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[50.318s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[50.318s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[50.318s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[50.321s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[50.321s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[50.321s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[50.321s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[50.322s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/path.sh
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/local_setup.bash
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/local_setup.sh
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/package.dsv
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[50.324s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[50.325s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[50.327s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[50.327s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[50.327s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[50.327s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[50.328s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[50.329s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[50.329s] -- Installing: /home/ohtoai/rust_ros_ws/install/nav_msgs/share/nav_msgs/package.xml
+[50.332s] Invoked command in '/home/ohtoai/rust_ros_ws/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/home/ohtoai/rust_ros_ws/install/rosidl_runtime_rs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs:/home/ohtoai/rust_ros_ws/install/std_msgs:/home/ohtoai/rust_ros_ws/install/rosidl_default_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_default_generators:/home/ohtoai/rust_ros_ws/install/action_msgs:/home/ohtoai/rust_ros_ws/install/service_msgs:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs:/home/ohtoai/rust_ros_ws/install/builtin_interfaces:/home/ohtoai/rust_ros_ws/install/rosidl_core_runtime:/home/ohtoai/rust_ros_ws/install/rosidl_core_generators:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib:/home/ohtoai/rust_ros_ws/install/std_msgs/lib:/home/ohtoai/rust_ros_ws/install/action_msgs/lib:/home/ohtoai/rust_ros_ws/install/service_msgs/lib:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ohtoai/rust_ros_ws/install/geometry_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/std_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/action_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/service_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/unique_identifier_msgs/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/builtin_interfaces/lib/python3.12/site-packages:/home/ohtoai/rust_ros_ws/install/rosidl_generator_rs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohtoai/rust_ros_ws/build/nav_msgs
